@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="240.0" minWidth="400.0" prefHeight="240.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GreetingsController">
+   <children>
+      <Button fx:id="loginButton" layoutX="276.0" layoutY="74.0" mnemonicParsing="false" text="Вход" />
+      <Button fx:id="registrationButton" layoutX="277.0" layoutY="130.0" mnemonicParsing="false" text="Регистрация" />
+      <Label layoutX="18.0" layoutY="76.0" prefHeight="23.0" prefWidth="63.0" text="Логин">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="132.0" text="Пароль">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="emailField" layoutX="91.0" layoutY="74.0" text="example@email.com" />
+      <Label layoutX="23.0" layoutY="15.0" text="Добро пожаловать!">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="passwordField" layoutX="90.0" layoutY="130.0" text="1111111" />
+      <Label alignment="TOP_CENTER" layoutX="85.0" layoutY="175.0" prefHeight="33.0" prefWidth="237.0" text="About" />
+   </children>
+</Pane>

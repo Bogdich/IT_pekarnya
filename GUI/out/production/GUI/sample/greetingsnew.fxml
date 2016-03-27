@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import java.lang.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="240.0" minWidth="400.0" prefHeight="401.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MapController">
+   <children>
+      <Button fx:id="exitButton" layoutX="323.0" layoutY="15.0" mnemonicParsing="false" text="Выход" />
+      <Label layoutX="23.0" layoutY="15.0" text="Добро пожаловать, логин!">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="needHelp" layoutX="23.0" layoutY="62.0" mnemonicParsing="false" text="Нужна помощь" />
+      <CheckBox fx:id="canGiveHelp" layoutX="149.0" layoutY="62.0" mnemonicParsing="false" text="Могу помочь" />
+      <CheckBox fx:id="eelse" layoutX="272.0" layoutY="62.0" mnemonicParsing="false" text="else" />
+      <WebView fontSmoothingType="GRAY" layoutX="21.0" layoutY="89.0" prefHeight="253.0" prefWidth="361.0" />
+      <Button fx:id="reloadButton" layoutX="23.0" layoutY="350.0" mnemonicParsing="false" text="Обновить" />
+   </children>
+</Pane>
